@@ -1,0 +1,54 @@
+/*Pataratanan Visitserngtrakul 20310367 Practical Class time Tuesday and Thursday 14:00 - 16:00*/
+@media screen and (max-width: 600px){
+    body{
+        background-color: whitesmoke;
+    }
+	.login{
+		width: 95%;
+		margin-top: 5px;
+	}
+	h1{
+		font-size: 1.5em;
+	}
+	nav{
+		padding-right: 5px;
+    }
+    .error {
+        padding:10px;
+        width:inherit;
+        margin:0;
+    }
+}
+input, textarea {
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+body {
+    font-family: 'Swanky and Moo Moo' , cursive;
+    color: #556B2F;
+  }
+  .container{
+    font-size: 22px;
+}
+label {
+    display:inline-block;
+    width:150px;
+}
+input[type="submit"] {
+    padding:6px;
+    font-size:1em;
+    font-family: 'Swanky and Moo Moo', cursive;
+    background-color: #87CEEB;
+    color: #708090;
+}
+input[type="text"], input[type="password"], textarea, select {
+    padding:3px;
+    margin-top:3px;
+    font-size:1em;
+}
+.error {
+    padding:10px 0px 10px 10px;
+    color:#a30101;
+    border-radius: 5px;
+    display:none;
+}
